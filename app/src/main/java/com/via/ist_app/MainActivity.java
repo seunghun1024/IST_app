@@ -30,10 +30,12 @@ public class MainActivity extends AppCompatActivity {
                 if(btnClickToggle==1){
                     image.setVisibility(View.INVISIBLE);
                     text2.setVisibility(View.INVISIBLE);
+                    btn.setText("나와랏!");
                     btnClickToggle=0;
                 } else {
                     image.setVisibility(View.VISIBLE);
                     text2.setVisibility(View.VISIBLE);
+                    btn.setText("들어가랏!");
                     btnClickToggle=1;
                 }
             }

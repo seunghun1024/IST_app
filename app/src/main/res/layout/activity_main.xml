@@ -22,9 +22,9 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="137dp"
+        android:layout_width="150dp"
         android:layout_height="72dp"
-        android:text="눌러봐!"
+        android:text="나와랏!"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
         android:background="@drawable/round_btn"
