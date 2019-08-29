@@ -1,5 +1,6 @@
 package com.via.ist_app;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         final ImageView image = findViewById(R.id.aciel);
         final TextView text2 = findViewById(R.id.textView);
         final Button btn = findViewById(R.id.button);
+        final Button btn2 = findViewById(R.id.button2);
         image.setVisibility(View.INVISIBLE);
         text2.setVisibility(View.INVISIBLE);
 
@@ -40,6 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
                     btnClickToggle=1;
                 }
+            }
+        });
+
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(getApplicationContext(), Login_page.class);
+                startActivity(intent);
             }
         });
     }
