@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        final TextView test111 = findViewById(R.id.Text1);
         final TextView text = findViewById(R.id.Text1);
         final ImageView image = findViewById(R.id.aciel);
         final TextView text2 = findViewById(R.id.textView);
