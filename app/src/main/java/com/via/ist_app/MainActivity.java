@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     image.setVisibility(View.VISIBLE);
                     text2.setVisibility(View.VISIBLE);
-                    btn.setText("들어가랏!");
+                    btn.setText("건후닷!");
+
                     btnClickToggle=1;
                 }
             }
